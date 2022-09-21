@@ -10,6 +10,62 @@
 
 <body>
 
+<div id='data-abstraction'>
+    <h1 id='types'>Dataset Types</h1>
+    <table>
+        <tr>
+            <th>UFO</th>
+            <th>Airports</th>
+            <th>Google-Web</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>airport_name: categorical</li>
+                    <li>latitude: position</li>
+                    <li>longitude: position</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        FromNodeId: item
+                        <ul>
+                            <li>quantitative</li>
+                        </ul>
+                    </li>
+                    <li>
+                        ToNodeId: item
+                        <ul>
+                            <li>quantitative</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        datetime: ordinal
+                        <ul>
+                            <li>cyclic</li>
+                        </ul>
+                    </li>
+                    <li>city: categorical</li>
+                    <li>state: categorical</li>
+                    <li>country: categorical</li>
+                    <li>shape: categorical</li>
+                    <li>
+                        duration: quantitative(discrete)
+                        <ul>
+                            <li>sequential</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</div>
 
 </body>
 
