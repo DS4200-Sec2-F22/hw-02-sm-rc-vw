@@ -10,3 +10,37 @@ th {
 	text-align:  left;
 	background-color: blue;
 }
+
+.two-col {
+	margin:  15px;
+}
+
+.row {
+	display:  flex;
+	flex-direction:  row;
+	flex-wrap:  wrap;
+	width:  100%;
+}
+
+.col {
+	display:  flex;
+	flex-direction:  column;
+	flex-basis:  100%;
+	flex:  1;
+}
+
+.col1 {
+	height: 1000px;
+	text-align: center;
+}
+
+.col2 {
+	height: 1000px;
+	text-align:  center;
+}
+
+#text {
+	font-size:  16px;
+	text-align:  left;
+}
+
