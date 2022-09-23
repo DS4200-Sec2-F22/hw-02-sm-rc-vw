@@ -53,12 +53,11 @@ h5 {
 }
 
 .deco {
-	text-align: center;
+
 	display: flex;
 	justify-content: space-evenly;
-	justify-content: space-between;
-	justify-content: space-around;
 }
+
 
 svg:hover circle{
 	stroke: red;
