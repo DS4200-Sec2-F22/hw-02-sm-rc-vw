@@ -52,11 +52,16 @@ h5 {
 	text-align: center;
 }
 
-.deco {
+#decoration {
 
 	display: flex;
 	justify-content: space-evenly;
 }
+
+
+
+
+
 
 
 svg:hover circle{
