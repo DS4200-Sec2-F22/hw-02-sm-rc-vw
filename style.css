@@ -48,3 +48,11 @@ th {
 	font-weight:  normal;
 }
 
+h6 {
+	text-align: center;
+}
+
+.deco {
+	display: flex;
+	justify-content: space-evenly;
+}
