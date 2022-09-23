@@ -2,11 +2,11 @@ body {
 	font-family:  Arial;
 }
 
-#header {
+.header {
 	text-align: center;
 }
 
-#subheader {
+.subheader {
 	text-align: left;
 }
 
