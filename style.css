@@ -60,6 +60,17 @@ h5 {
 	justify-content: space-around;
 }
 
+svg:hover circle{
+	stroke: red;
+	stroke-width: 4px;
+}
+
+svg:hover rect{
+	fill: darkred;
+	stroke:  black;
+	stroke-width: 5 px;
+}
+
 #acknowledgements {
 	text-align: left;
 }
