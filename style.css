@@ -56,3 +56,7 @@ h6 {
 	display: flex;
 	justify-content: space-evenly;
 }
+
+#acknowledgements {
+	text-align: left;
+}
