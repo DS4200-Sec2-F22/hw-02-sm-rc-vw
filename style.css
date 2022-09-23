@@ -33,12 +33,12 @@ th {
 }
 
 .col1 {
-	height: 1000px;
+	height: 700px;
 	text-align: center;
 }
 
 .col2 {
-	height: 1000px;
+	height: 700px;
 	text-align:  center;
 }
 
@@ -53,8 +53,11 @@ h6 {
 }
 
 .deco {
+	text-align: center;
 	display: flex;
 	justify-content: space-evenly;
+	justify-content: space-between;
+	justify-content: space-around;
 }
 
 #acknowledgements {
