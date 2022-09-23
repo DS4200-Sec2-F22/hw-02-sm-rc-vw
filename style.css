@@ -2,12 +2,15 @@ body {
 	font-family:  Arial;
 }
 
-#types {
+#header {
 	text-align: center;
 }
 
+#subheader {
+	text-align: left;
+}
+
 th {
-	text-align:  left;
 	background-color: blue;
 }
 

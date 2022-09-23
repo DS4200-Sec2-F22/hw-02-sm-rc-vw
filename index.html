@@ -11,64 +11,98 @@
 <body>
 
 <div id='data-abstraction'>
-    <h1 id='types'>Dataset Types</h1>
+    <h1 id='header' class="info">Dataset Types</h1>
     <table>
         <tr>
-            <th>UFO</th>
-            <th>Airports</th>
-            <th>Google-Web</th>
+            <th>Data</th>
+            <th>Link</th>
+            <th>Dataset Type</th>
         </tr>
         <tr>
+            <td>UFO</td>
             <td>
-                <ul>
-                    <li>airport_name: categorical</li>
-                    <li>latitude: position</li>
-                    <li>longitude: position</li>
-                </ul>
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgCm8h3fGGEyG6i2Ic89E2-g0LFbTFTeJKx3pwGyGBlPrPkySuiO6F9xjunJgBMF-tJ3fyQBuZpwKs/pub?output=csv">Link</a>
             </td>
+            <td>Items</td>
+        <tr>
+            <td>Airports</td>
             <td>
-                <ul>
-                    <li>
-                        FromNodeId: item (in network)
-                        <ul>
-                            <li>categorical (id is a name, holds no numercial value)</li>
-                        </ul>
-                    </li>
-                    <li>
-                        ToNodeId: item (in network)
-                        <ul>
-                            <li>categorical (id is a name, holds no numercial value)</li>
-                        </ul>
-                    </li>
-                </ul>
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0jCCvMgPZd55lgQ_IsJRDA0bNLCmgY0hzWvE2_MkKDZzcYZDTl3KYQX1ZTQrpWp7-P3RpfHQy1PfA/pub?output=csv">Link</a>
             </td>
+            <td>Positions</td>
+        </tr>
+        <tr>
+            <td>Google-Web</td>
             <td>
-                <ul>
-                    <li>
-                        datetime: item
-                        <ul>
-                            <li>ordinal (cyclic)</li>
-                        </ul>
-                    </li>
-                    <li>city: categorical</li>
-                    <li>state: categorical</li>
-                    <li>country: categorical</li>
-                    <li>shape: categorical</li>
-                    <li>
-                        duration: quantitative(discrete)
-                        <ul>
-                            <li>sequential</li>
-                        </ul>
-                    </li>
-                </ul>
+                <a href="file:///Users/rachelcassway/Documents/School/NORTHEASTERN/SECOND-YEAR/Fall2022/DS4200/hw-02-sm-rc-vw/data/Google-Web.txt">Link</a>
             </td>
+            <td>Network</td>
         </tr>
     </table>
+</div>
 
+<div class="info">
+    <h1 id="header">Data Types</h1>
+    <h2 id="subheader">UFO</h2>
+    <ul>
+        <li>Row data type: items</li>
+        <li>datetime: datetime</li>
+            <ul>
+                <li>ordinal (cyclic)</li>
+            </ul>
+        <li>
+            city: attribute 
+            <ul>
+                 </li>categorical</li>
+            </ul>
+        </li>
+        <li>
+            state: attribute 
+            <ul>
+                 </li>categorical</li>
+            </ul>
+        </li>
+        <li>
+            country: attribute 
+            <ul>
+                 </li>categorical</li>
+            </ul>
+        </li>
+        <li>
+            shape: attribute 
+            <ul>
+                 </li>categorical</li>
+            </ul>
+        </li>
+        <li>
+            duration: attribute 
+            <ul>
+                 </li>quantitative (sequential)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 id="subheader">Airports</h2>
+    <ul>
+        <li>Row data type: items</li>
+        <li>airport_name: attributes</li>
+            <ul>
+                <li>categorical</li>
+            </ul>
+        <li>latitude: position</li>
+        <li>longitude: position</li>
+    </ul>
+
+    <h2 id="subheader">Google-Web</h2>
+    <ul>
+        <li>Row data type: item</li>
+        <li>FromNodeId: link</li>
+        <li>ToNodeId: link</li>
+    </ul>
 </div>
 
 <div id = 'task-abstraction'>
-    <h1 id = 'types'>Task Abstraction<h1/>
+    <h1 id = 'header'>Task Abstraction<h1/>
     <div class = 'two-col'>
         <div class = 'row'>
             <div class = 'col'>
